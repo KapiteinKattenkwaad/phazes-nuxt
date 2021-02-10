@@ -32,6 +32,8 @@ module.exports = {
   plugins: [
     '~/plugins/webFontLoader.client.js'
   ],
+  ssr: false,
+  target: 'static',
   /*
   ** Build configuration
   */
